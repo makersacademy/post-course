@@ -25,6 +25,41 @@ const data = [
   ]
 ];
 
-function applyQuery(query) {
+var schema = {
+  tables: {
+    "cohorts": {
+      location: 0,
+      fields: {
+        "id": 0,
+        "name": 1
+      }
+    },
+    "students": {
+      location: 1,
+      fields: {
+        "id": 0,
+        "name": 1,
+        "cohort_id": 2
+      }
+    }
+  }
+}
 
+function applyQuery(query) {
+  // Get the address of the table
+  // Get the items from the table
+  // Iterate through each of the items in the table
+  // Get the fields from each of the items and add to the results
+  // Return the results
+
+  var tableSchema = schema.tables[query.from];
+  var tableIndex = tableSchema.location;
+  var tableRows = data[tableIndex];
+  var selectMap = (row) => {
+    return query.select.map((column) => {
+      var fieldIndex = tableSchema.fields[column.field];
+      return row[fieldIndex];
+    });
+  }
+  return tableRows.map(selectMap);
 }

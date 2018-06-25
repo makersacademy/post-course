@@ -11,9 +11,23 @@ describe("applyQuery", function() {
 
     // assert
     expect(results).toEqual([
-      "Machelle Hui", "Leighann Cavanagh", "Sherell Lundberg", "Loreta Fairbank", "Trinh Allmond",
-      "Parthenia Bullen", "Ellan Meyerson", "Pete Roysden", "Lulu Frenette", "Rena Sasson", "Franchesca Stokley",
-      "Edward Leighty", "Malka Ostrom", "Evangeline Schippers", "Ethel Claire", "Jeannie Raia", "Shiela Tinoco"
+      [ "Machelle Hui" ],
+      [ "Leighann Cavanagh" ],
+      [ "Sherell Lundberg" ],
+      [ "Loreta Fairbank" ],
+      [ "Trinh Allmond" ],
+      [ "Parthenia Bullen" ],
+      [ "Ellan Meyerson" ],
+      [ "Pete Roysden" ],
+      [ "Lulu Frenette" ],
+      [ "Rena Sasson" ],
+      [ "Franchesca Stokley" ],
+      [ "Edward Leighty" ],
+      [ "Malka Ostrom" ],
+      [ "Evangeline Schippers" ],
+      [ "Ethel Claire" ],
+      [ "Jeannie Raia" ],
+      [ "Shiela Tinoco" ]
     ]);
 
   });
@@ -29,7 +43,7 @@ describe("applyQuery", function() {
     const results = applyQuery(query);
 
     // assert
-    expect(results).toEqual("April", "May", "June");
+    expect(results).toEqual([ ["April"], ["May"], ["June"] ]);
   });
 
   it("Get the names of all students in the May cohort", () => {
