@@ -35,4 +35,4 @@ If you have any questions, come talk to me!
 
 ## Active Projects
 
-* [Comparative Code Review](https://github.com/makersacademy/post-course/tree/master/placement-projects/comparative-code-review)
+* [Comparative Code Review](https://github.com/makersacademy/post-course/tree/main/placement-projects/comparative-code-review)

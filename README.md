@@ -2,8 +2,8 @@
 
 ## Contents
 
-* [Placement Projects](https://github.com/makersacademy/post-course/tree/master/placement-projects) is the landing page for information about project work after graduation.
+* [Placement Projects](https://github.com/makersacademy/post-course/tree/main/placement-projects) is the landing page for information about project work after graduation.
 
-* [Learning Material](https://github.com/makersacademy/post-course/tree/master/learning) is where Makers graduates record tips on useful and insightful material for getting to grips with new technologies.
+* [Learning Material](https://github.com/makersacademy/post-course/tree/main/learning) is where Makers graduates record tips on useful and insightful material for getting to grips with new technologies.
 
-* [Exercises](https://github.com/makersacademy/post-course/tree/master/exercises) is where we collect workshops and instructions for practical exercise to help with learning.
+* [Exercises](https://github.com/makersacademy/post-course/tree/main/exercises) is where we collect workshops and instructions for practical exercise to help with learning.
